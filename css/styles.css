@@ -1,0 +1,160 @@
+
+.title{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #ff4c68;
+  padding-bottom: 5rem;
+}
+
+.container-fluid{
+  padding: 3% 10%
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+em{
+  font-size: 150%;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+.feature{
+  text-align: center;
+  padding: 3rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.feature-box{
+  padding: 1rem;
+}
+.feature-head{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.feature-icon{
+  color: #ef8172;
+  padding: 1rem;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+.feature-text{
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+.testimonials{
+  /* padding: 5rem 15rem; */
+  text-align: center;
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+.testimonial-img{
+  border-radius: 100%;
+  padding: 1.5rem;
+}
+
+/* Carousel */
+.carousel-item{
+  padding: 5rem 15rem;
+}
+/* Press */
+
+.press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.press_img{
+  width: 12%;
+  margin: 3rem;
+}
+
+/* Pricing */
+.pricing{
+  padding: 13rem;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+
+}
+
+/* Call to Action */
+.cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #ffffff;
+  padding: 3rem 15%;
+}
+.cta-text{
+  size: 3.5rem;
+  padding: 3rem;
+}
+
+/* Footer */
+.footer{
+  background-color: #ffffff;
+  text-align: center;
+  padding: 5rem;
+
+}
+.footer-icon{
+  margin: 0.75rem;
+}
+@media (max-width:1024px){
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+  .title{
+    text-align: center;
+  }
+  .carousel-item{
+    font-size: 250%;
+  }
+}
